@@ -1,0 +1,7 @@
+.hero {
+  background-color: #1b2944;
+  padding: 114px 168px 88px;
+  display: flex;
+  justify-content: space-between;
+
+}

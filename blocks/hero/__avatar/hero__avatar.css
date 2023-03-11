@@ -1,0 +1,9 @@
+.hero__avatar {
+  width: 384px;
+  height: 384px;
+  object-fit: cover;
+  object-position: center;
+  border: solid 10px #ffffff;
+  border-radius: 50%;
+  box-sizing: border-box;
+}

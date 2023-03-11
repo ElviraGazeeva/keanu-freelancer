@@ -1,0 +1,8 @@
+.social-links {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  list-style: none;
+}

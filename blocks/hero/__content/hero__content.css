@@ -1,0 +1,5 @@
+.hero__content {
+  width: 464px;
+  display: flex;
+  flex-direction: column;
+}

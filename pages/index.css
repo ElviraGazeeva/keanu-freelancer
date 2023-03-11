@@ -1,0 +1,25 @@
+@import url(../vendor/normalize.css);
+
+/* global style */
+@import url(../blocks/root/root.css);
+
+/* all blocks */
+@import url(../blocks/header/header.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/social-links/social-links.css);
+@import url(../blocks/hero/hero.css);
+
+/* social-links block elements styles */
+@import url(../blocks/social-links/__link/social-links__link.css);
+@import url(../blocks/social-links/__icon/social-links__icon.css);
+
+/* hero block elements styles */
+@import url(../blocks/hero/__content/hero__content.css);
+@import url(../blocks/hero/__profession/hero__profession.css);
+@import url(../blocks/hero/__author/hero__author.css);
+@import url(../blocks/hero/__text/hero__text.css);
+@import url(../blocks/hero/__button/hero__button.css);
+@import url(../blocks/hero/__avatar/hero__avatar.css);
+
+/* opacity block elements styles */
+@import url(../blocks/opacity/opacity.css);
