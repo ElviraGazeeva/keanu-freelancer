@@ -1,9 +1,19 @@
-.hero__avatar {
-  width: 384px;
-  height: 384px;
-  object-fit: cover;
-  object-position: center;
-  border: solid 10px #ffffff;
-  border-radius: 50%;
-  box-sizing: border-box;
+@media (max-width: 1280px) {
+  .hero__avatar {
+    width: 384px;
+    height: 384px;
+    object-fit: cover;
+    object-position: center;
+    border: solid 10px #ffffff;
+    border-radius: 50%;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 320px) {
+  .hero__avatar{
+    width: 110px;
+    height: 110px;
+    border: solid 5px #ffffff;
+  }
 }

@@ -1,7 +1,17 @@
-.hero {
-  background-color: #1b2944;
-  padding: 114px 168px 88px;
-  display: flex;
-  justify-content: space-between;
+@media (max-width: 1280px) {
+  .hero {
+    background-color: #1b2944;
+    padding: 114px 168px 88px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
 
+@media (max-width: 320px) {
+  .hero {
+    padding: 40px 24px 51px;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 24px;
+  }
 }
