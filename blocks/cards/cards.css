@@ -1,0 +1,14 @@
+.cards {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0;
+  list-style: none;
+  -webkit-column-gap: 16px;
+      -moz-column-gap: 16px;
+            column-gap: 16px;
+  row-gap: 72px;
+}

@@ -9,6 +9,9 @@
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/social-links/social-links.css);
 @import url(../blocks/hero/hero.css);
+@import url(../blocks/features/features.css);
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/cards/cards.css);
 
 /* social-links block elements styles */
 @import url(../blocks/social-links/__link/social-links__link.css);
@@ -21,6 +24,12 @@
 @import url(../blocks/hero/__text/hero__text.css);
 @import url(../blocks/hero/__button/hero__button.css);
 @import url(../blocks/hero/__avatar/hero__avatar.css);
+
+/* cards block elements styles */
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__image/cards__image.css);
+@import url(../blocks/cards/__title/cards__title.css);
+@import url(../blocks/cards/__description/cards__description.css);
 
 /* opacity block elements styles */
 @import url(../blocks/opacity/opacity.css);
