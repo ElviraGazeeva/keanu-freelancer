@@ -22,9 +22,7 @@
         <p class="hero__profession">Фрилансер</p>
         <p class="hero__author">Эльвира Газеева</p>
         <p class="hero__text">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать дизайн и верстку небольшого сайта или интернет-магазина</p>
-        <form id="consultation">
-          <button name="button" class="hero__button" type="button">Бесплатная консультация</button>
-        </form>
+        <a href="#footer" class="hero__button opacity">Бесплатная консультация</a>
       </div>
       <img src="./images/Keanu.png" alt="аватарка" class="hero__avatar">
     </section>
@@ -66,24 +64,58 @@
     <section class="portfolio">
       <h1 class="section-title">Выполненные проекты</h1>
       <ul class="projects">
-        <li class="projects__item">
+        <li class="projects__item overlay">
           <img src="./images/portfolio1.png" alt="картинка портфолио 1" class="projects__image">
           <h2 class="projects__title">The curious corner of chamarel</h2>
-          <button class="projects__button">Посмотреть</button>
+          <a href="#" class="projects__button opacity">Посмотреть</a>
         </li>
-        <li class="projects__item">
+        <li class="projects__item overlay">
           <img src="./images/portfolio2.png" alt="картинка портфолио 1" class="projects__image">
           <h2 class="projects__title">Gymkhana club golf course</h2>
-          <button class="projects__button">Посмотреть</button>
+          <a href="#" class="projects__button opacity">Посмотреть</a>
         </li>
-        <li class="projects__item">
+        <li class="projects__item overlay">
           <img src="./images/portfolio3.png" alt="картинка портфолио 1" class="projects__image">
           <h2 class="projects__title">Tamarind falls hiking trip - full day</h2>
-          <button class="projects__button">Посмотреть</button>
+          <a href="#" class="projects__button opacity">Посмотреть</a>
         </li>
       </ul>
     </section>
+    <section class="gallery">
+      <img src="./images/gallery01.png" alt="картинка 1" class="gallery__item">
+      <img src="./images/gallery02.png" alt="картинка 2" class="gallery__item">
+      <img src="./images/gallery03.png" alt="картинка 3" class="gallery__item">
+      <img src="./images/gallery04.png" alt="картинка 4" class="gallery__item">
+      <img src="./images/gallery05.png" alt="картинка 5" class="gallery__item">
+      <iframe class="gallery__video" id="ytplayer1" src="https://www.youtube.com/embed/5MgBikgcWnY?controls=0&fs=0"></iframe>
+      <img src="./images/gallery07.png" alt="картинка 7" class="gallery__item">
+      <img src="./images/gallery08.png" alt="картинка 8" class="gallery__item">
+      <img src="./images/gallery09.png" alt="картинка 9" class="gallery__item">
+      <img src="./images/gallery10.png" alt="картинка 10" class="gallery__item">
+      <iframe class="gallery__video" id="ytplayer2" src="https://www.youtube.com/embed/arj7oStGLkU?controls=0&fs=0"></iframe>
+      <img src="./images/gallery12.png" alt="картинка 12" class="gallery__item">
+    </section>
   </main>
-  <footer class="footer"></footer>
+  <footer class="footer" id="footer">
+    <h1 class="section-title">Свяжитесь со мной</h1>
+    <div class="footer__contact-block">
+      <form action="" class="contact-form">
+        <h2 class="contact-form__heading">Можете просто оставить заявку, я позвоню вам сегодня</h2>
+        <fieldset class="contact-form__input-container">
+          <input type="text" class="contact-form__item" name="name" placeholder="Ваше имя" required>
+          <input type="tel" class="contact-form__item" name="tel" placeholder="Ваш телефон" required>
+          <input type="submit" class="contact-form__item contact-form__button" name="button" value="Бесплатная консультация">
+        </fieldset>
+      </form>
+      <div class="footer__contact-text-container">
+        <ul class="footer__contact-text">
+          <li class="footer__contact-data"></li>
+          <li class="footer__contact-social"></li>
+          <li class="social-links"></li>
+        </ul>
+        <a href="#" class="footer__confidentiality">Политика конфиденциальности</a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

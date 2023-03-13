@@ -13,7 +13,11 @@
     font-size: 12px;
     line-height: 16px;
     text-transform: uppercase;
+    text-decoration: none;
     color: #1B2944;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -23,6 +27,5 @@
     height: 44px;
     font-size: 10px;
     line-height: 13px;
-    text-align: center;
   }
 }

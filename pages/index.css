@@ -14,6 +14,9 @@
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/portfolio/portfolio.css);
 @import url(../blocks/projects/projects.css);
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/contact-form/contact-form.css);
+@import url(../blocks/footer/footer.css);
 
 /* social-links block elements styles */
 @import url(../blocks/social-links/__link/social-links__link.css);
@@ -39,5 +42,24 @@
 @import url(../blocks/projects/__title/projects__title.css);
 @import url(../blocks/projects/__button/projects__button.css);
 
+/* gallery block elements styles */
+@import url(../blocks/gallery/__item/gallery__item.css);
+@import url(../blocks/gallery/__video/gallery__video.css);
+
+@import url(../blocks/contact-form/contact-form.css);
+@import url(../blocks/contact-form/__heading/contact-form__heading.css);
+@import url(../blocks/contact-form/__input-container/contact-form__input-container.css);
+@import url(../blocks/contact-form/__item/contact-form__item.css);
+@import url(../blocks/contact-form/__button/contact-form__button.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__contact-block/footer__contact-block.css);
+@import url(../blocks/footer/__contact-text-container/footer__contact-text-container.css);
+@import url(../blocks/footer/__contact-text/footer__contact-text.css);
+@import url(../blocks/footer/__contact-contact-data/footer__contact-data.css);
+@import url(../blocks/footer/__contact-contact-social/footer__contact-social.css);
+@import url(../blocks/footer/__confidentiality/footer__confidentiality.css);
+
 /* opacity block elements styles */
 @import url(../blocks/opacity/opacity.css);
+@import url(../blocks/overlay/overlay.css);

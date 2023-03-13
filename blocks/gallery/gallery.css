@@ -1,0 +1,7 @@
+.gallery {
+  padding: 88px 168px;
+  background-color: #141f35;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}

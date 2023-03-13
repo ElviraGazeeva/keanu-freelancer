@@ -1,0 +1,11 @@
+.contact-form {
+width: 464px;
+background-color: #ffffff;
+box-shadow: -5px 5px 0px #ffc41d;
+border-radius: 5px;
+padding: 40px 32px;
+display: flex;
+flex-direction: column;
+gap: 32px;
+box-sizing: border-box;
+}

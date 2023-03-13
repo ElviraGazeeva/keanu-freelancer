@@ -1,4 +1,11 @@
 .projects__title {
-  display: absolute;
-
+  width: 170px;
+  position: absolute;
+  bottom: 84px;
+  left: 32px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
 }
