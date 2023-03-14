@@ -56,9 +56,16 @@
 @import url(../blocks/footer/__contact-block/footer__contact-block.css);
 @import url(../blocks/footer/__contact-text-container/footer__contact-text-container.css);
 @import url(../blocks/footer/__contact-text/footer__contact-text.css);
-@import url(../blocks/footer/__contact-contact-data/footer__contact-data.css);
-@import url(../blocks/footer/__contact-contact-social/footer__contact-social.css);
+@import url(../blocks/footer/__contact-data/footer__contact-data.css);
+@import url(../blocks/footer/__contact-social/footer__contact-social.css);
 @import url(../blocks/footer/__confidentiality/footer__confidentiality.css);
+@import url(../blocks/footer/__contact-box/footer__contact-box.css);
+@import url(../blocks/footer/__contact-heading/footer__contact-heading.css);
+@import url(../blocks/footer/__contact-item/footer__contact-item.css);
+@import url(../blocks/footer/__social-links/footer__social-links.css);
+@import url(../blocks/footer/__link/footer__link.css);
+
+
 
 /* opacity block elements styles */
 @import url(../blocks/opacity/opacity.css);

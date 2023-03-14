@@ -1,0 +1,6 @@
+.footer__contact-text-container {
+  width: 384px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
