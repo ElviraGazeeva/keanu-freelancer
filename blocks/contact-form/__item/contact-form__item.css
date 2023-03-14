@@ -2,7 +2,11 @@
   border: none;
   width: 400px;
   height: 70px;
+  box-sizing: border-box;
+  padding-left: 50px;
   background: #f8f8f8;
   box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
   border-radius: 5px;
 }
+
+

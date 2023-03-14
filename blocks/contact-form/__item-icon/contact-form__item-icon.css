@@ -1,0 +1,6 @@
+.contact-form__item-icon {
+  background-image: url('../../../images/user-icon.svg');
+  background-repeat: no-repeat;
+  background-position-x: 20px;
+  background-position-y: center;
+}

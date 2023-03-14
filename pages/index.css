@@ -53,6 +53,7 @@
 @import url(../blocks/contact-form/__heading/contact-form__heading.css);
 @import url(../blocks/contact-form/__input-container/contact-form__input-container.css);
 @import url(../blocks/contact-form/__item/contact-form__item.css);
+@import url(../blocks/contact-form/__item-icon/contact-form__item-icon.css);
 @import url(../blocks/contact-form/__button/contact-form__button.css);
 
 @import url(../blocks/footer/footer.css);
@@ -73,4 +74,3 @@
 /* opacity block elements styles */
 @import url(../blocks/opacity/opacity.css);
 @import url(../blocks/scale/scale.css);
-
