@@ -46,6 +46,7 @@
 @import url(../blocks/projects/__overlay/projects__overlay.css);
 
 /* gallery block elements styles */
+@import url(../blocks/gallery/__container/gallery__container.css);
 @import url(../blocks/gallery/__item/gallery__item.css);
 @import url(../blocks/gallery/__video/gallery__video.css);
 
@@ -54,6 +55,8 @@
 @import url(../blocks/contact-form/__input-container/contact-form__input-container.css);
 @import url(../blocks/contact-form/__item/contact-form__item.css);
 @import url(../blocks/contact-form/__item-icon/contact-form__item-icon.css);
+@import url(../blocks/contact-form/__item-icon-name/contact-form__item-icon-name.css);
+@import url(../blocks/contact-form/__item-icon-tel/contact-form__item-icon-tel.css);
 @import url(../blocks/contact-form/__button/contact-form__button.css);
 
 @import url(../blocks/footer/footer.css);

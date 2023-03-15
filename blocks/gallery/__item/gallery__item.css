@@ -4,3 +4,11 @@
   object-fit: cover;
   object-position: center;
 }
+
+@media (max-width: 320px) {
+  .gallery__item {
+    width: 129px;
+    height: 129px;
+    margin-bottom: 16px;
+  }
+}

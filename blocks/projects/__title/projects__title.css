@@ -10,3 +10,13 @@
   color: #ffffff;
   margin: 0;
 }
+
+@media (max-width: 320px) {
+  .projects__title {
+    width: 142px;
+    font-size: 16px;
+    line-height: 19px;
+    bottom: 65px;
+    left: 16px;
+  }
+}

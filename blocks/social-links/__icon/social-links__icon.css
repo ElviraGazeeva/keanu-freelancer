@@ -1,3 +1,9 @@
 .social-links__icon {
+  width: 20px;
+}
 
+@media (max-width: 320px) {
+  .social-links__icon {
+    width: 16px;
+  }
 }

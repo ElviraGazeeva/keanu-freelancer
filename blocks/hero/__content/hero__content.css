@@ -1,14 +1,14 @@
-/*@media (max-width: 1280px) {*/
-  .hero__content {
-    width: 464px;
-    display: flex;
-    flex-direction: column;
-  }
+.hero__content {
+  width: 464px;
+  margin: 34px 0 31px;
+  display: flex;
+  flex-direction: column;
+}
 
-
-/*@media (max-width: 320px) {
+@media (max-width: 320px) {
   .hero__content {
+    margin: 0;
     width: 272px;
   }
 }
-*/
+

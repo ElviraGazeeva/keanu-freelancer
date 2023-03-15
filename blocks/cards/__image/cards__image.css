@@ -3,3 +3,13 @@
   height: 52px;
   margin: 0;
 }
+
+@media (max-width: 320px) {
+  .cards__image {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}

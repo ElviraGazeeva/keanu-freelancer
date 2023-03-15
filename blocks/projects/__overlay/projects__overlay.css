@@ -5,3 +5,8 @@
   opacity: 1;
 }
 
+@media (max-width: 320px) {
+  .projects__overlay {
+    min-height: 166px;
+  }
+}

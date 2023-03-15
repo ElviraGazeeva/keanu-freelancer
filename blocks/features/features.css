@@ -2,3 +2,9 @@
   padding: 88px 168px;
   background-color: #141f35;
 }
+
+@media (max-width: 320px) {
+  .features {
+    padding: 48px 24px;
+  }
+}

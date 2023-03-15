@@ -1,15 +1,14 @@
-/*@media (max-width: 1280px) {*/
-  .hero__text {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
-    color: #ffffff;
-    margin: 0 0 40px;
-  }
+.hero__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+  margin: 0 0 40px;
+}
 
 
-/*@media (max-width: 320px) {
+@media (max-width: 320px) {
   .hero__text {
     font-size: 14px;
     line-height: 20px;
@@ -17,4 +16,4 @@
     margin: 0 0 56px;
   }
 }
-*/
+

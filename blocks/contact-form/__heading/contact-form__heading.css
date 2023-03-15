@@ -7,3 +7,10 @@
   color: #000000;
   margin: 0;
 }
+
+@media (max-width: 320px) {
+  .contact-form__heading {
+    font-size: 15px;
+    line-height: 21px;
+  }
+}

@@ -12,3 +12,9 @@
             column-gap: 16px;
   row-gap: 72px;
 }
+
+@media (max-width: 320px) {
+  .cards {
+    gap: 32px;
+  }
+}

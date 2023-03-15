@@ -1,27 +1,25 @@
-/*@media (max-width: 1280px) {*/
-  .hero__button {
-    margin: 0;
-    width: 300px;
-    height: 66px;
-    background-color: #ffbb01;
-    border: none;
-    border-radius: 6px;
-    box-shadow: 0px 4px 0px #b68500;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 16px;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #1B2944;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.hero__button {
+  margin: 0;
+  width: 300px;
+  height: 66px;
+  background-color: #ffbb01;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0px 4px 0px #b68500;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #1B2944;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-
-/*@media (max-width: 320px) {
+@media (max-width: 320px) {
   .hero__button {
     width: 272px;
     height: 44px;
@@ -29,4 +27,4 @@
     line-height: 13px;
   }
 }
-*/
+

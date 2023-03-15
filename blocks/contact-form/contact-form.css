@@ -1,11 +1,18 @@
 .contact-form {
-width: 464px;
-background-color: #ffffff;
-box-shadow: -5px 5px 0px #ffc41d;
-border-radius: 5px;
-padding: 40px 32px;
-display: flex;
-flex-direction: column;
-gap: 32px;
-box-sizing: border-box;
+  width: 464px;
+  background-color: #ffffff;
+  box-shadow: -5px 5px 0px #ffc41d;
+  border-radius: 5px;
+  padding: 40px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 320px) {
+  .contact-form {
+    width: 272px;
+    padding: 32px 18px 40px;
+  }
 }

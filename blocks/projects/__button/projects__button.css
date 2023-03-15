@@ -20,3 +20,13 @@
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width: 320px) {
+  .projects__button {
+    font-size: 12px;
+    line-height: 16px;
+    width: 114px;
+    bottom: 17px;
+    left: 16px;
+  }
+}

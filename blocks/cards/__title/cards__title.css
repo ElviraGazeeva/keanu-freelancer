@@ -6,3 +6,11 @@
   line-height: 28px;
   color: #FFFFFF;
 }
+
+@media (max-width: 320px) {
+  .cards__title {
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 0 8px;
+  }
+}

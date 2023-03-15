@@ -2,3 +2,9 @@
   padding: 88px 168px;
   background-color: #1b2944;
 }
+
+@media (max-width: 320px) {
+  .portfolio {
+    padding: 48px 24px;
+  }
+}
