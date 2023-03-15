@@ -1,8 +1,13 @@
 .hero__content {
   width: 464px;
   margin: 34px 0 31px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 @media (max-width: 320px) {
@@ -11,4 +16,3 @@
     width: 272px;
   }
 }
-

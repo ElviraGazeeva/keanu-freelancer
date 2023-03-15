@@ -1,5 +1,7 @@
 .gallery__container {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 16px 1fr 16px 1fr 16px 1fr;
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
   margin: 0;
@@ -9,9 +11,9 @@
 
 @media (max-width: 320px) {
   .gallery__container {
+    -ms-grid-columns: 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr;
     grid-template-columns: repeat(12, 1fr);
     overflow-x: scroll;
     gap: 15px;
   }
 }
-

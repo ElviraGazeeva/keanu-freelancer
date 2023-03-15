@@ -1,8 +1,10 @@
 .gallery__item {
   width: 224px;
   height: 224px;
-  object-fit: cover;
-  object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 
 @media (max-width: 320px) {

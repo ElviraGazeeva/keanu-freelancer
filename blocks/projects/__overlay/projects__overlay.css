@@ -1,4 +1,5 @@
 .projects__overlay {
+  background: -o-linear-gradient(270.17deg, rgba(196, 196, 196, 0) 35.34%, #213E60 99.85%);
   background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #213E60 99.85%);
   width: 100%;
   height: 100%;
